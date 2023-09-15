@@ -1,0 +1,98 @@
+/* Body text */
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  margin: auto;
+  font-size: 14px;
+  padding: 4rem;
+  font-weight: normal;
+  text-align: start;
+  border-radius: 1rem;
+  background-color:hsl(69, 33%, 54%);
+  color: black;
+}
+
+/* Call-to-action container */
+.cta {
+  max-width: 30ch;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 2rem;
+  color: black;
+  background-color: hsl(70, 40%, 66%);
+  border-radius: 1rem;
+
+}
+
+/* Call to Action "button" */
+.cta a, .cta a:visited {
+  font-family: 'Oswald', sans-serif;
+  padding: 0.5rem;
+  margin: auto;
+color: hsl(47, 100%, 67%);
+background-color: hsl(245, 39%, 17%);
+text-decoration: none;
+border-radius: 1rem;
+}
+
+/* Hover state */
+.cta a:hover {
+ background-color: hsl(233, 61%, 36%);
+color: hsl(0, 0%, 100%);
+}
+
+/* Click state */
+.cta a:active {
+
+}
+body {
+  font-size: 48px;
+  font-family: 'Aleo', serif;
+  font-size: 14px;
+  padding: 3em;
+  font-weight: normal;
+  text-align: start;
+
+color: #d2bb98;
+background-color:#933629
+}
+
+main {
+  margin: auto; 
+}
+
+a:link {
+  color: #AFE6E6;
+  text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+ul li::before {
+  content: "📌";
+  display: inline-block;
+  margin-right: 0.0rem;
+  list-style: none;
+}
+
+
+h1, h2, h3 {
+  max-width: 65px;
+  font-family: 'Bevan', serif;
+}
+
+img {
+  width:100%;
+}
+
+.wormparttwo {
+  display: block;
+}
+
+.wormpartone {
+  float: right;
+  border-radius: 1rem;
+  width: 20ch;
+  
+}
