@@ -44,17 +44,6 @@ color: hsl(0, 0%, 100%);
 .cta a:active {
 
 }
-body {
-  font-size: 48px;
-  font-family: 'Aleo', serif;
-  font-size: 14px;
-  padding: 3em;
-  font-weight: normal;
-  text-align: start;
-
-color: #d2bb98;
-background-color:#933629
-}
 
 main {
   margin: auto; 
@@ -65,9 +54,6 @@ a:link {
   text-decoration: none;
 }
 
-a:hover {
-text-decoration: underline;
-}
 
 ul li::before {
   content: "📌";
