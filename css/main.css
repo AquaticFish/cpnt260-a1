@@ -1,48 +1,15 @@
-/* Body text */
 body {
-  font-family: 'Source Sans 3', sans-serif;
-  margin: auto;
-  font-size: 14px;
+  font-size: clamp(1rem, 2vw, 1.5rem); 
+  font-family: 'Roboto', sans-serif;
+
+ 
   padding: 4rem;
   font-weight: normal;
   text-align: start;
-  border-radius: 1rem;
-  background-color:hsl(69, 33%, 54%);
-  color: black;
-}
+  letter-spacing: 1px;
 
-/* Call-to-action container */
-.cta {
-  max-width: 30ch;
-  margin: auto;
-  margin-top: 5rem;
-  padding: 2rem;
-  color: black;
-  background-color: hsl(70, 40%, 66%);
-  border-radius: 1rem;
-
-}
-
-/* Call to Action "button" */
-.cta a, .cta a:visited {
-  font-family: 'Oswald', sans-serif;
-  padding: 0.5rem;
-  margin: auto;
-color: hsl(47, 100%, 67%);
-background-color: hsl(245, 39%, 17%);
-text-decoration: none;
-border-radius: 1rem;
-}
-
-/* Hover state */
-.cta a:hover {
- background-color: hsl(233, 61%, 36%);
-color: hsl(0, 0%, 100%);
-}
-
-/* Click state */
-.cta a:active {
-
+  color: #dffc6b;
+  background-color:#311269
 }
 
 main {
@@ -56,16 +23,19 @@ a:link {
 
 
 ul li::before {
-  content: "📌";
+  content: "✅";
   display: inline-block;
   margin-right: 0.0rem;
-  list-style: none;
 }
 
+ul {
+  list-style-type: none;
+}
 
 h1, h2, h3 {
-  max-width: 65px;
-  font-family: 'Bevan', serif;
+  font-size: clamp(1.5rem, 2.5vw, 4rem);
+  font-variant: small-caps slashed-zero;
+  font-family: 'Bree Serif', serif;
 }
 
 img {
@@ -74,11 +44,15 @@ img {
 
 .wormparttwo {
   display: block;
+  height: auto
 }
 
-.wormpartone {
-  float: right;
-  border-radius: 1rem;
-  width: 20ch;
-  
+figure {
+  margin: 0;
 }
+
+ a:hover {
+  background-color: #6cfbde;
+ color:#661737; 
+ }
+
